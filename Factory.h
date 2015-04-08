@@ -19,6 +19,7 @@ class Shape
 public:
     virtual double Area() = 0;
     virtual ~Shape(){}
+    virtual void print();
 };
 
 class Rectangle : public Shape
